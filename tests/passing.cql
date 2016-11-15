@@ -1,3 +1,5 @@
+CREATE TABLE users (user_name varchar PRIMARY KEY, password varchar, gender varchar, session_token varchar, state varcharm birth_year bigint);
+CREATE TABLE emp (empID int, deptID int,first_name varchar,last_name varchar,PRIMARY KEY (empID, deptID));
 select field1,field2 from test
 select field1, field2 from test
 select * from tab where term > ? order by bacon
