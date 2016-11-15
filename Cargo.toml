@@ -6,8 +6,6 @@ authors = ["Jon Haddad <jon@jonhaddad.com>"]
 [lib]
 name = "cql_parser"
 
-[dependencies.peg]
-git = "https://github.com/kevinmehall/rust-peg.git"
-
 [dependencies]
+peg = "0.3.0"
 uuid = "*"
